@@ -33,3 +33,6 @@ set errorformat=%m\ in\ %f\ on\ line\ %l
 
 " Highlight SQL syntax in strings
 let php_sql_query=1
+
+"This prevents a \n being added by vim at the end of the file
+setlocal noeol
