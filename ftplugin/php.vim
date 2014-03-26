@@ -17,7 +17,8 @@ imap <F10> {}O
 set omnifunc=phpcomplete#CompletePHP
 
 " Lookup local php help files with lynx
-map <leader>h :!lynx -editor=vi file:///usr/local/doc/php-net/indexes.functions.html<CR>
+" Commented this out in favor of using Dash on my mac
+"map <leader>h :!lynx -editor=vi file:///usr/local/doc/php-net/indexes.functions.html<CR>
 " Run phpunit tests
 "map ,p :!phpunit -c /home/quibids/tests/Ares/phpunit.xml %<CR>
 " Lint the file for syntax errors
