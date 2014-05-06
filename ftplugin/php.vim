@@ -1,8 +1,5 @@
 " PHP specific vimrc settings
 
-" Use with ctags
-set tags=~/.vim/tags
-
 " Show function documentation
 map <F2> "zyw:exe "!php --rfunction ".@z.""<CR>
 " Use to fold up a function
